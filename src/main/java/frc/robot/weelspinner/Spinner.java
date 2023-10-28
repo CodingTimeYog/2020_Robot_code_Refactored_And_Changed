@@ -4,10 +4,10 @@ import edu.wpi.first.wpilibj.motorcontrol.MotorController;
 
 public class Spinner
 {
-    private final MotorController speedController;
+    private final MotorController spinnerMotor;
 
-    public Spinner (MotorController speedController)
+    public Spinner (MotorController spinnerMotor)
     {
-        this.speedController = speedController;
+        this.spinnerMotor = spinnerMotor;
     }
 }
